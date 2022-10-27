@@ -1,0 +1,3 @@
+rootProject.name = 'GunGaleOnline'
+include 'GunGaleTest3'
+
