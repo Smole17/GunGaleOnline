@@ -23,9 +23,5 @@ allprojects {
         compileOnly 'org.spigotmc:spigot-api:1.19-R0.1-SNAPSHOT'
     }
 
-    jar {
-        destinationDirectory.set(file("D:\\Сервера\\1.19\\plugins\\"))
-    }
-
     tasks.withType(JavaCompile)*.options*.encoding = 'UTF-8'
 }
